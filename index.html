@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form-style.css">
+</head>
+
+<body>
+    <!-- nav+header+(main>div+(section>h2{Lorem ipsum dolor.}))+footer -->
+    <nav></nav>
+    <header></header>
+    <main>
+        <div></div>
+        <section>
+            <h2>Lorem ipsum dolor.</h2>
+
+            <!-- Initialisation du formulaire -->
+            <!-- form:post[action="#"] -->
+            <form action="#" method="post">
+                <div>
+                    <!-- <label for="firstNameInput">Firstname</label> -->
+                    <input type="text" name="firstNameInput" id="firstNameInput" placeholder="Type your firstname..">
+                    <input type="text" name="lastNameInput" id="lastNameInput" placeholder="Lastname">
+                </div>
+                <div>
+                    <input type="email" name="emailInput" id="emailInput" placeholder="Email address">
+                    <input type="tel" name="phoneInput" id="phoneInput" placeholder="Phone number">
+                </div>
+                <textarea 
+                maxlength="10" 
+                class="message-input" 
+                name="messageInput" 
+                id="messageInput" 
+                cols="30" 
+                rows="10"
+                placeholder="Type your message.."></textarea>
+                <!-- <input type="submit" value="Submit"> -->
+                <button type="submit">Submit</button>
+
+                <input type="checkbox" name="checkbox" id="checkbox">
+                <input type="color" name="color" id="color">
+                <input type="file" name="file" id="file">
+                <input type="date" name="date" id="date">
+                <input type="time" name="datetime" id="datetime">
+
+                <label for="optn1">Option 1</label>
+                <input type="radio" value="option1" name="option" id="optn1">
+                <label for="optn2">Option 2</label>
+                <input type="radio" value="option2" name="option" id="optn2">
+                <label for="optn3">Option 3</label>
+                <input type="radio" value="option3" name="option" id="optn3">
+
+                <input type="text" name="hiddenField" placeholder="test input" disabled>
+
+                <select name="selectInput" id="selectInput">
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                    <option value="option4">Option 4</option>
+                </select>
+
+                <input type="radio" value="option1" name="option1" id="">Option 1</input>
+                <input type="radio" value="option2" name="option1" id="">Option 2</input>
+                <input type="radio" value="option3" name="option1" id="">Option 3</input>
+            </form>
+        </section>
+    </main>
+    <footer></footer>
+
+</body>
+
+</html>
