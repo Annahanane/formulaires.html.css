@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form-style.css">
+</head>
+
+<body>      
+                
+               
+        
+    
+    <form class="form" id="contactForm">
+        <div class="form__section">
+            <div>
+                <input class="form__input" type="text" name="firstName" id="firstName" placeholder="Firstname">
+                <label class="error-message" for="firstName" id="firstNameError">Veuillez renseigner votre prénom.</label>
+            </div>
+            <div>
+                <input class="form__input" type="text" name="lastName" id="lastName" placeholder="Lastname">
+                <label class="error-message" for="lastName" id="lastNameError">Veuillez renseigner votre nom.</label>
+            </div>
+        </div>
+        <div class="form__section">
+            <div>
+                <input class="form__input" type="email" name="email" id="email" placeholder="Email address">
+                <label class="error-message" for="email" id="emailError">Veuillez renseigner un email valide.</label>
+            </div>
+            <div>
+                <input class="form__input" type="tel" name="phone" id="phone" placeholder="Phone number">
+                <label class="error-message" for="phone" id="phoneError">Veuillez renseigner un numéro de téléphone valide.</label>
+            </div>
+        </div>
+       <div>
+        <input class="form__input" type="password" name="password" id="password" placeholder="password">
+        <label class="error-message" for="password" id="passwordError"> Veuillez renseigner un mot de passe valide</label>
+       </div>
+        <button class="form__submit" type="submit">Submit</button>
+    </form>
+
+    
+<script src="./form.js"></script>
+</body>
+
+</html>
