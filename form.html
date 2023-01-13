@@ -12,30 +12,37 @@
 <body>      
                 
                
-        
+    
     
     <form class="form" id="contactForm">
+        <h1>Formulaire de contact</h1>   
         <div class="form__section">
             <div>
+                <h2>Premon</h2>
                 <input class="form__input" type="text" name="firstName" id="firstName" placeholder="Firstname">
                 <label class="error-message" for="firstName" id="firstNameError">Veuillez renseigner votre prénom.</label>
             </div>
             <div>
+                <h2>Nom</h2>
                 <input class="form__input" type="text" name="lastName" id="lastName" placeholder="Lastname">
                 <label class="error-message" for="lastName" id="lastNameError">Veuillez renseigner votre nom.</label>
             </div>
-        </div>
+        
         <div class="form__section">
-            <div>
+        </div>
+        <div>
+            <h2>Adresse email</h2>
                 <input class="form__input" type="email" name="email" id="email" placeholder="Email address">
                 <label class="error-message" for="email" id="emailError">Veuillez renseigner un email valide.</label>
             </div>
             <div>
+            <h2>Numero de telephon</h2>
                 <input class="form__input" type="tel" name="phone" id="phone" placeholder="Phone number">
                 <label class="error-message" for="phone" id="phoneError">Veuillez renseigner un numéro de téléphone valide.</label>
             </div>
         </div>
        <div>
+        <h2> Mot de passe</h2>
         <input class="form__input" type="password" name="password" id="password" placeholder="password">
         <label class="error-message" for="password" id="passwordError"> Veuillez renseigner un mot de passe valide</label>
        </div>
@@ -44,6 +51,7 @@
 
     
 <script src="./form.js"></script>
+
 </body>
 
 </html>
